@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ComponentPage> 
+  <entry type="1" x="31.408807" y="30.029956" name="max">
+    <image source="max6"/>
+  </entry>
+    <entry type="1" x="31.408699" y="30.029808" name="Levi&apos;s">
+    <image source="levis5"/>
+  </entry>
+    <entry type="1" x="31.408546" y="30.029701" name="Piserro">
+    <image source="pisero5"/>
+  </entry>
+    <entry type="2" x="31.408406" y="30.029597" name="Femi9">
+    <image source="femi9_5"/>
+  </entry>
+  <entry type="1" x="31.408258" y="30.028947" name="outside In">
+    <image source="outsideInCFC"/>
+  </entry>
+    <entry type="1" x="31.408336" y="30.029537" name="daniel hechter">
+    <image source="danielHechter5"/>
+  </entry>
+    <entry type="1" x="31.408218" y="30.029401" name="Payless">
+    <image source="payless2"/>
+  </entry>
+    <entry type="1" x="31.408081" y="30.029364" name="Calliope">
+    <image source="calliope5"/>
+  </entry>  
+   <entry type="1" x="31.408055" y="30.029262" name="Jack &amp; jones">
+    <image source="jackJones5"/>
+  </entry>
+    <entry type="1" x="31.407922" y="30.029057" name="Fiorangelo">
+    <image source="fiorangelo7"/>
+  </entry>
+    <entry type="0" x="31.407837" y="30.0290999" name="Aldo">
+    <image source="aldo6"/>
+  </entry>
+    <entry type="1" x="31.409071" y="30.029682" name="Concrete">
+    <image source="concrete10"/>
+  </entry>   
+</ComponentPage>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+
+</script>
+
+
+<div class="container">
+  <div id="main_area">
+    <!-- Slider -->
+    <div class="row">
+      <div class="col-xs-12" id="slider">
+        <!-- Top part of the slider -->
+        <div class="row">
+          <div class="col-sm-12" id="carousel-bounding-box">
+            <div class="carousel slide" id="myCarousel">
+              <!-- Carousel items -->
+              <div class="carousel-inner" id="content">
+             
+ 
+              </div>
+            
+              <!-- Carousel nav -->
+              <a class="left carousel-control arrow" href="#myCarousel" role="button" data-slide="prev">
+                <img src="images/leftArrow.png">
+              </a>
+              <a  class="right carousel-control arrow" href="#myCarousel" role="button" data-slide="next">
+               <img src="images/rightArrow.png">
+              </a>
+            </div>
+          </div>
+
+          
+
+        </div>
+      </div>
+    </div>
+    <!--/Slider-->
+
+    <div class="row hidden-xs" id="slider-thumbs">
+      <!-- Bottom switcher of slider -->
+      <ul class="hide-bullets" id="content2">
+       
+
+       
+      </ul>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/myjs.js">
+</script>
+<script type="text/javascript">
+  
+
+
+
+  document.getElementById('content').innerHTML = ' <div class="active item" data-slide-number="0"><h1 class="text-center textStyle" >'+names[0]+'</h1><img src="'+images[0]+'"></div>';
+
+for(var i = 1; i < count; i++) {
+  document.getElementById('content').innerHTML += ' <div class=" item" data-slide-number="'+i+'"><h1 class="text-center textStyle">'+names[i]+'</h1><img src="'+images[i]+'"></div>';
+
+  
+  }
+
+  for(var i = 0; i < count; i++) {
+document.getElementById('content2').innerHTML += '<li class="col-sm-2"><a  class="thumbnail pointerStyle" id="carousel-selector-'+i+'"><img src="'+images2[i]+'"></a></li> ';
+  }
+
+</script>
+</body>
+</html>

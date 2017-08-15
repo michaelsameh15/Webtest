@@ -1,0 +1,38 @@
+html {
+    height: 100%
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+.hide-bullets {
+list-style:none;
+margin-left: -40px;
+margin-top:20px;
+}
+.item img{
+  width: 70%;
+ padding-left: 31%;
+}
+body{
+  background-color: #000;
+}
+.arrow{
+	background-image: none;
+	margin-top: 10%;
+}
+.textStyle{
+	color: #FFF;
+	text-transform:capitalize;
+}
+.pointerStyle{
+cursor: pointer;
+}
+#default{
+	width:100%; height:100%;
+}
+#part2{
+background-color: #dfdfdf;
+}
